@@ -54,8 +54,7 @@
   },
   "alpaca_en": {
     "hf_hub_url": "llamafactory/alpaca_en",
-    "ms_hub_url": "llamafactory/alpaca_en",
-    "om_hub_url": "HaM/alpaca_en"
+    "ms_hub_url": "llamafactory/alpaca_en"
   },
   "alpaca_zh": {
     "hf_hub_url": "llamafactory/alpaca_zh",
@@ -67,8 +66,7 @@
   },
   "alpaca_gpt4_zh": {
     "hf_hub_url": "llamafactory/alpaca_gpt4_zh",
-    "ms_hub_url": "llamafactory/alpaca_gpt4_zh",
-    "om_hub_url": "State_Cloud/alpaca-gpt4-data-zh"
+    "ms_hub_url": "llamafactory/alpaca_gpt4_zh"
   },
   "glaive_toolcall_en": {
     "hf_hub_url": "llamafactory/glaive_toolcall_en",
@@ -624,5 +622,37 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "potential_solution_design": {
+    "file_name": "/scratch/chenqian/LLaMA-Factory/code_dataset/train_1_potential_solution_design.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "solution_review": {
+    "file_name": "/scratch/chenqian/LLaMA-Factory/code_dataset/train_2_solution_review.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "code_implementation": {
+    "file_name": "/scratch/chenqian/LLaMA-Factory/code_dataset/train_3_code_implementation.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
+  "code_comment_4_classes": {
+    "file_name": "/scratch/chenqian/LLaMA-Factory/code_dataset/train_4_classes.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
   }
 }
